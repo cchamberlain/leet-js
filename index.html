@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>leet-js by cchamberlain</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">leet-js</h1>
+        <p class="header">Convert boring text to 1337 text</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/cchamberlain/leet-js/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/cchamberlain/leet-js/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/cchamberlain/leet-js">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/cchamberlain">cchamberlain</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="leet-js" class="anchor" href="#leet-js" aria-hidden="true"><span class="octicon octicon-link"></span></a>leet-js</h1>
+
+<p>Convert regular and boring text into 1337 text with this lightweight node.js module.</p>
+
+<p><img src="http://i.imgur.com/BTuE3Sp.gif" alt="Example"></p>
+
+<p>It converts the usual suspects into 4W350M3 1337 73X7ZORZ, but with the following caveats:</p>
+
+<ul>
+<li>Uppercase characters will "bypass" the conversion (<code>HELLO hello</code> becomes <code>HELLO H3110</code>)</li>
+<li>Any <code>cks</code> are replaced by <code>x</code> for 100% true 1337N355</li>
+<li>It will add <code>ZORZ</code> or <code>XOR</code> to the end of the end of the text</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a id="via-npm" class="anchor" href="#via-npm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Via NPM</h3>
+
+<p>To install leet.js simply do:</p>
+
+<pre><code>sudo npm install leet-js
+</code></pre>
+
+<p>Add <code>-g</code> to install globally.</p>
+
+<p>If you don't have npm, you can download and install it with this line:</p>
+
+<pre><code>curl http://npmjs.org/install.sh | sh
+</code></pre>
+
+<p>That's it! <a href="http://www.youtube.com/watch?v=8grzRgQ_AWY">Dance!</a></p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Using <code>leet</code> couldn't be easier! Feed it text and it will spit out 1337 73X7ZORZ!</p>
+
+<h3>
+<a id="as-a-standalone-script" class="anchor" href="#as-a-standalone-script" aria-hidden="true"><span class="octicon octicon-link"></span></a>As a standalone script</h3>
+
+<p>Run the <code>leet</code> file directly with whatever text you want to convert:</p>
+
+<pre><code>./leet 'i want to eat snacks and be leet!'
+</code></pre>
+
+<p>The result:</p>
+
+<pre><code>I W4N7 70 347 5N4X 4ND B3 1337ZORZ!
+</code></pre>
+
+<h3>
+<a id="as-a-nodejs-module" class="anchor" href="#as-a-nodejs-module" aria-hidden="true"><span class="octicon octicon-link"></span></a>As a node.js module</h3>
+
+<p><code>require</code> the module into your script and use the <code>convert</code> function to convert your text to 4W350M3 1337ZORZ!</p>
+
+<div class="highlight highlight-javascript"><pre>leet <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>leet<span class="pl-pds">'</span></span>);
+text <span class="pl-k">=</span> leet.convert(<span class="pl-s"><span class="pl-pds">'</span>do you know where i left my cheese?<span class="pl-pds">'</span></span>);
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(text); <span class="pl-c">// D0 Y0U KN0W WH3R3 I 13F7 MY CH3353ZORZ?</span></pre></div>
+
+<h3>
+<a id="the-end" class="anchor" href="#the-end" aria-hidden="true"><span class="octicon octicon-link"></span></a>The End</h3>
+
+<p>This project was started as a fork of <a href="https://github.com/mathiasnovas/leet.js">https://github.com/mathiasnovas/leet.js</a></p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
