@@ -1,4 +1,5 @@
-# leet.js
+leet-js
+=======
 
 Convert regular and boring text into 1337 text with this lightweight node.js module.
 
@@ -60,12 +61,6 @@ text = leet.convert('do you know where i left my cheese?');
 console.log(text); // D0 Y0U KN0W WH3R3 I 13F7 MY CH3353ZORZ?
 ```
 
-### As a part of a healthy breakfast
+### The End
 
-![what?](http://i.imgur.com/YzqetHc.jpg)
-
-***
-
-## License
-
-I D0N7 C4R3! D0 WH473V3R Y0U W4N7ZORZ.
+This project was started as a fork of https://github.com/mathiasnovas/leet.js
