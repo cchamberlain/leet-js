@@ -1,7 +1,7 @@
 {
-  "name": "leet",
-  "version": "1.2.7",
-  "description": "Convert boring text to 1337 text",
+  "name": "leet-js",
+  "version": "0.1.0",
+  "description": "Why words when y0u h45 w0rd5"
   "main": "leet.js",
   "prefer_global": true,
   "bin": {
@@ -12,8 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/novasism/leet.js"
+    "url": "https://github.com/cchamberlain/leet.js"
   },
-  "author": "novasism",
-  "license": "BSD"
+  "author": "cchamberlain",
+  "license": "MIT"
 }
