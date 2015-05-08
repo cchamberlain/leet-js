@@ -53,7 +53,3 @@ leet = require('leet');
 text = leet.convert('do you know where i left my cheese?');
 console.log(text); // D0 Y0U KN0W WH3R3 I 13F7 MY CH3353ZORZ?
 ```
-
-### The End
-
-This project was started as a fork of https://github.com/mathiasnovas/leet.js
