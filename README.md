@@ -19,7 +19,7 @@ It converts the usual suspects into 4W350M3 1337 73X7ZORZ, but with the followin
 
 To install leet.js simply do:
 
-    sudo npm install leet
+    sudo npm install leet-js
 
 Add `-g` to install globally.
 
@@ -29,23 +29,16 @@ If you don't have npm, you can download and install it with this line:
 
 That's it! [Dance!](http://www.youtube.com/watch?v=8grzRgQ_AWY)
 
-### From GitHub
-
-You can also do it the old-fashioned way:
-
-    git clone git@github.com:mathiasnovas/leet.js.git leet
-
-***
 
 ## Usage
 
-Using `leet.js` couldn't be easier! Feed it text and it will spit out 1337 73X7ZORZ!
+Using `leet` couldn't be easier! Feed it text and it will spit out 1337 73X7ZORZ!
 
 ### As a standalone script
 
-Run the `leet.js` file directly with whatever text you want to convert:
+Run the `leet` file directly with whatever text you want to convert:
 
-    ./leet.js 'i want to eat snacks and be leet!'
+    ./leet 'i want to eat snacks and be leet!'
 
 The result:
 
